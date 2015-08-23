@@ -11,7 +11,7 @@ The script primarily aims to create the following datasets in addition to provid
 * Forming an 'Activity' dataset for each experiment (training or test) and renaming the activity labels with proper, descriptive names instead of numerals ranging from 1 to 6.
 * Merging the activities and subject dataset for each experiment with its respective parent dataset; so we have two datasets - 'training' and 'test' that have their own activities and subject datasets combined into them.
 * Merging the 'training' and 'test' datasets to form a whole dataset, named here as final.data containing 10300 observations for 563 variables.
-* Renaming the variable names of the training and test datasets to make more sense of the measurement concerned. So we have column names like 'TimeBodyAccelerometer-mean()-X' instead of 'V1' that suggests the linear velocity measured by the accelerometers for x-axis.
+* Renaming the variable names of the training and test datasets to make more sense of the measurement concerned. So we have column names like 'TimeBodyAccelerometer-mean()-X' instead of the shorter form 'tBodyAcc-mean()-x' that suggests the velocity of the linear acceleration measured by the accelerometers for x-axis.
 * Independent datasets that are a subset of the primary dataset 'final.data' with every mean and standard deviation measurement. Thus we have 'mean.data' that contains the mean variables for every activity and subject and 'std.data' that contains the variables with standard deviations.
 * A dataset that contains the calculated averages for each activity and each subject for every measurement (variable), named here as 'mean.data.training_test'.
 
